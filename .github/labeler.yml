@@ -1,0 +1,44 @@
+version: 1
+
+labels:
+  # Type: Recent changes
+  - label: "⚡ Recently Updated"
+    last-modified:
+      at-most: 1d
+
+  # Type: Old changes
+  - label: "📦 Stale Update"
+    last-modified:
+      at-least: 30d
+
+  - label: "🐞 Bug"
+    # type: issue
+    title: '^\[Bug\]'
+
+  - label: "🔧 Build"
+    # type: issue
+    title: '^\[Build\]'
+
+  - label: "🧹 Chore"
+    # type: issue
+    title: '^\[Chore\]'
+
+  - label: "🔁 CI/CD"
+    # type: issue
+    title: '^\[CI/CD\]'
+
+  - label: "📝 Documentation"
+    # type: issue
+    title: '^\[Docs\]'
+
+  - label: "✨ Enhancement"
+    # type: issue
+    title: '^\[Enhance\]'
+
+  - label: "🚀 Feature"
+    # type: issue
+    title: '^\[Feat\]'
+
+  - label: "♻️ Refactor"
+    # type: issue
+    title: '^\[Refactor\]'
