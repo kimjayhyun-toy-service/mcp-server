@@ -1,1 +1,1 @@
-__appdesc__ = "Youtube Service"
+__appdesc__ = "MCP Server"
