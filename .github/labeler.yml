@@ -11,6 +11,11 @@ labels:
     last-modified:
       at-least: 30d
 
+  # Type: Test
+  - label: "🧪 Test"
+    # type: issue
+    title: '^\[Test\]'
+
   - label: "🐞 Bug"
     # type: issue
     title: '^\[Bug\]'
