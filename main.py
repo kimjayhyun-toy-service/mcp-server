@@ -29,4 +29,4 @@ def summarize_request(text: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="sse", host="0.0.0.0")
